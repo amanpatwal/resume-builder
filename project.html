@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Resume Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <link rel ="stylesheet" href="style.css"/>
+
+
+</head>
+<body>
+    <div id="cv-form">
+
+    <div class="left">
+     <img src="file:///D:/Medicom-UDF-Toy-Story-4-Forky-Ultra-Detail-Figure.webp" alt="Forky icon">
+     <div>Forky</div>
+     <p class="info"> Personal information</p>
+     </div>
+
+    <div class="mid">
+        <h1 class="yoru">Create your professional CV online with forky</h1>
+        <p class="yoru">Create your very own professional CV and download it within minutes.</p>
+
+    </div>
+
+    <div class="right">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Home</a></li>
+                </ul>
+    
+            </nav>
+            <p class="info2">professional information</p>
+            <form>
+                <div class="form-group">
+                    <label for="">objective:</label><br>
+                    <textarea placeholder="Enter here" class="form-control" rows="4" cols="55">
+                    
+                    </textarea>
+                
+            
+            </div>
+            <div class="form-group" id="we">
+                <label for="">Work Experience:</label><br>
+                <textarea placeholder="Enter here" class="form-control weField" rows="4" cols="55">
+                
+                </textarea>
+                <div id="weAddButton">
+                
+                    <button onclick="addNewWEField()" class="btn">Add</button>
+                </div>
+
+             </div>
+             <div id="aq" class="form-group" >
+                <label for="">Academic Qualifications:</label><br>
+                <textarea placeholder="Enter here" class="form-control eqField" rows="4" cols="55">
+                
+                </textarea>
+                <div>
+                
+                <button onclick="addNewAQField()" class="btn">Add</button>
+             </div>
+
+             </div>
+
+             <button class="btn2"> Generate CV</button>
+                
+        
+                    
+                
+        
+            
+
+            </form>
+
+    </div>
+    <form>
+
+    <div class="form-group">
+        
+            <label for="nameField">your name:</label><br>
+            <input type="text" id="nameField" placeholder="Enter here" class="form-control"/>
+        
+
+    </div>
+    <div class="form-group">
+            <label for="contactField">Your Contact:</label><br>
+            <input type="text" id="contactField" placeholder="Enter here" class="form-control">
+        
+
+    </div>
+    <div class="form-group">
+        <label for="mailField">Your E-mail:</label><br>
+        <input type="text" id="mailField" placeholder="Enter here" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="addressField">Your Address:</label><br>
+        <textarea type="text" id="addressField" placeholder="Enter here" class="form-control" rows="10" cols="50">
+        
+        </textarea>
+    
+
+</div>
+<p id="blur">Important Links </p>
+<div class="form-group">
+    <label for="fbField">Facebook:</label><br>
+    <input type="text" id="fbField" placeholder="Enter here" class="form-control">
+
+
+</div>
+<div class="form-group">
+    <label for="instaField">Instagram:</label><br>
+    <input type="text" id="instaField" placeholder="Enter here" class="form-control">
+
+
+</div>
+<div class="form-group">
+    <label for="lkiField">LinkedIn:</label><br>
+    <input type="text" id="lkiField" placeholder="Enter here" class="form-control">
+
+
+</div>
+
+
+
+</form>
+    </div>
+
+    <div class="master" id="cv-template">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Academic Qualification</h3>
+
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus nesciunt corporis? Molestiae ex, repellendus, numquam explicabo dolores autem deserunt in blanditiis esse quas atque, laboriosam aut beatae tempora voluptatibus?
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus nesciunt corporis? Molestiae ex, repellendus, numquam explicabo dolores autem deserunt in blanditiis esse quas atque, laboriosam aut beatae tempora voluptatibus?
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus nesciunt corporis? Molestiae ex, repellendus, numquam explicabo dolores autem deserunt in blanditiis esse quas atque, laboriosam aut beatae tempora voluptatibus?
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus nesciunt corporis? Molestiae ex, repellendus, numquam explicabo dolores autem deserunt in blanditiis esse quas atque, laboriosam aut beatae tempora voluptatibus?
+                    </li>
+                </ul>
+
+                    
+
+
+            </div>
+        </div>
+        <div class="container mt-3 text-center">
+          <button class="btn background">
+              Print CV
+          </button>  
+        </div>
+
+        
+    </div>
+
+
+    
+    
+
+
+
+    
+   <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>

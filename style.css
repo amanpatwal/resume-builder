@@ -1,0 +1,114 @@
+
+.navbar{
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+.navbar li{
+    float:right;
+    list-style: none;
+    margin:10px 20px;
+    
+}
+.navbar ul{
+    overflow: auto;
+    
+
+}
+.navbar li a{
+    padding: 5px 5px;
+    text-decoration: none;
+    color: green;
+    font-family: 'Baloo 2', cursive;
+    font-size: 18px;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+}
+
+.yoru{
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+   
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background: url('file:///D:/wallpaper-mania.com_High_resolution_wallpaper_background_ID_77700411411.jpg');
+    padding: 0px;
+    
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+
+}
+
+.left img{
+    width: 88px;
+    margin-left: 0px;
+
+
+}
+.left div{
+    margin-left: 19px;
+    font-family: 'Baloo 2', cursive;
+    font-size: 20px;
+}
+.mid{
+    
+    display: block;
+    margin: 80px auto;
+    width: 33%;
+
+}
+.right
+{
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+    top: 1px;
+    
+
+
+}
+.form-group{
+   
+   width: 400px;
+   padding: 6px;
+   margin: 50px 2px;
+   
+
+}
+.form-group input{
+    border-radius: 3px;
+}
+
+#blur{
+    color: transparent;
+    text-shadow: 0 0 1.2px #000;
+    font-size: 20px;
+}
+
+.info{
+    margin: 60px 5px;
+    font-size: 25px;
+}
+.info2{
+    margin: 100px 70px;
+    font-size: 25px; 
+}
+.form {
+    border-radius: 10px;
+}
+.btn{
+    text-align: center;
+    margin: 10px 200px;
+}
+.btn2{
+    margin: 2px -490px;
+    font-size: 17px;
+    border-radius: 3px;
+}
